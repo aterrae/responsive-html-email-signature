@@ -16,7 +16,12 @@ tr{
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   box-sizing: border-box;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 22px;
+}
+
+.main{
+  width:100%;
+  background-color: #ffffff;
 }
 
 .rbcc{
@@ -30,35 +35,16 @@ tr{
   cellspacing:0;
 }
 
-.background{
-  width:100%;
-}
-
-.main{
-  width:100%;
-  background-color: #ffffff;
-  padding-top:15px;
-}
-
 .sp{ /* Separator tr; props are actually contained by it's inner element atm. */ }
 
 .sp__inner{
   padding: 15px 0;
 }
 
-.gray-hr{ /* 100% width light grey line; props are actually contained by inner elements atm. */ }
+.spd{ /* Separator tr (double); props are actually contained by it's inner element atm. */ }
 
-.gray-hr td{
-  width: 100%;
-}
-
-.gray-hr hr{
-  border-bottom:1px solid #E4E4E4;
-  border-top:none;
-  margin-bottom:20px;
-  margin-top:20px;
-  color: transparent;
-  background:transparent;
+.spd__inner{
+  height: 60px;
 }
 
 a{
@@ -93,14 +79,14 @@ a{
  * ================
  */
 .footer{
-  background-color: #f5f5f5;
+  background-color: #efefef;
   padding: 20px 30px 0px 30px;
-  color: #888;
-  border-top: 8px solid #EAEAEA;
+  color: #666;
+  border-top: 8px solid #333;
 }
 
 .footer a{
-  color: #888;
+  color: #666;
 }
 
 .footer--simple{
@@ -108,35 +94,44 @@ a{
   background-color: #FFFFFF;
 }
 
+.footer--simple tr td{
+  color: #888;
+}
+
 .footer__main{
-  /* NB: This prop fucks up the width on OS X, needs to be *JUST* attribute. */
+  /* This style property fucks up the width on OS X, needs to be *JUST* attribute */
   width:100%;
 }
 
 .footer__main__signature{
-  font-size: 14px;
-  color: #888;
+  font-size: 16px;
+  color: #666;
   /* @todo gulp-inline-css doesn't parse align */
   align:left;
 }
 
 .footer__main__col1{
   width:70%;
-  margin-bottom:30px;
+  margin-bottom:40px;
   /* @todo gulp-inline-css doesn't parse align */
   align:left;
 }
 
 .footer__main__col1__td{
-  font-size: 14px;
-  color: #888;
+  color: #333;
   /* @todo gulp-inline-css doesn't parse align */
   align:left;
+  padding-top: 15px;
+}
+
+.footer__main__col1__td > span{
+  font-size:18px;
+  margin-bottom:5px;
 }
 
 .footer__main a > span{
   /* Revert apple blue-link style. */
-  color: #888!important;
+  color: #666!important;
   text-decoration:none!important;
 }
 
@@ -148,16 +143,15 @@ a{
 
 .footer__main__col2__td{
   font-size: 14px;
-  color: #888;
+  color: #666;
   /* @todo gulp-inline-css doesn't parse align */
   align:right;
 }
 
 .footer__main__col2__td__img{
   border: 0;
-  padding-top: 6px;
-  padding-left:10px;
+  padding-left:20px;
   max-width: 100%;
-  max-height:38px;
+  max-height:65px;
   height: auto;
 }
