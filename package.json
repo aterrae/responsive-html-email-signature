@@ -48,6 +48,7 @@
   },
   "scripts": {
     "create": "node_modules/.bin/gulp",
+    "watch": "gulp watch",
     "deploy": "cp -r dist demo && git push origin `git subtree split --prefix demo develop`:gh-pages --force"
   }
 }
