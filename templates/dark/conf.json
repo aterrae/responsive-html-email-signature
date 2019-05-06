@@ -1,11 +1,24 @@
-{
-  "id": "dark",
-  "signature": "Best regards,",
-  "name": "The dark mail team",
-  "contactMain": "Call <a href='tel:004580100100'><span>(45) 80100100</span></a> or email us at",
-  "contactMail": "info@dark.dk",
-  "slogan": "LED Pylon. LED Wall. Digital Signage.",
-  "logoUrl": "/assets/dark.png",
-  "logoAlt": "dark logo",
-  "website": "http://dark.dk"
-}
+[
+  {
+    "id": "edoardo",
+    "signature": "A risentirci!",
+    "name": "Edoardo",
+    "contactMain": "Mobile: <a href='tel:+393451676399‬'><span>+39 345 1676399‬</span></a>",
+    "contactMail": "",
+    "slogan": "Aterrae | Digital Growth.",
+    "logoUrl": "/assets/logo_light.png",
+    "logoAlt": "logo",
+    "website": "https://aterrae.com"
+  },
+  {
+    "id": "info",
+    "signature": "A risentirci!",
+    "name": "Aterrae",
+    "contactMain": "Tel: <a href='tel:+390492612270'><span>+39 049 2612270</span></a>",
+    "contactMail": "",
+    "slogan": "Aterrae | Digital Growth.",
+    "logoUrl": "/assets/logo_light.png",
+    "logoAlt": "logo",
+    "website": "https://aterrae.com"
+  }
+]
