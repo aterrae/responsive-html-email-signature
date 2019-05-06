@@ -104,7 +104,7 @@ a{
 }
 
 .footer__main__signature{
-  font-size: 14px;
+  font-size: 16px;
   color: #f5f5f5;
   /* @todo gulp-inline-css doesn't parse align */
   align:left;
